@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     margin: 50px;
-    background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-    background-size: cover;
-    height: 100vh;
-
+    background: #FFF8DB;
 }
 h2 {
     font-family: "Poppins", sans-serif;
     font-style: normal;
+}
+.container{
+    display: flex;
 }
 .add_btn{
     outline: none;
@@ -21,4 +21,34 @@ h2 {
     cursor: pointer;
     display: flex;
     justify-content: center;
+    background-color: #e27df7c8;
+}
+.note_wrapper{
+    background: #fff;
+    width: 400px;
+    height: 250px;
+    margin-top: 1rem;
+}
+.editbuttons{
+    background-color: #e27df7c8;
+    display: flex;
+    justify-content: flex-end;
+}
+.edit, .delete{
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    display: flex;
+}
+.txtarea{
+    outline: none;
+    border: none;
+    font-family: inherit;
+    font-size: 16px;
+    width: 99%;
+    height: 201px;
+    padding: 2px;
+    resize: none;
 }
