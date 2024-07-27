@@ -7,9 +7,6 @@ h2 {
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
-.container{
-    display: flex;
-}
 .add_btn{
     outline: none;
     border: none;
