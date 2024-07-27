@@ -1,51 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
-    margin: 50px;
-    background: #FFF8DB;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 50px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
 }
-h2 {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
 }
-.add_btn{
-    outline: none;
-    border: none;
-    border-radius: 30px;
-    font-family: inherit;
-    font-size: 1rem;
-    padding: 0.6rem 1rem;
-    margin-bottom: 8rem 0;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    background-color: #e27df7c8;
+.container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
-.note_wrapper{
-    background: #fff;
-    width: 400px;
-    height: 250px;
-    margin-top: 1rem;
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
-.editbuttons{
-    background-color: #e27df7c8;
-    display: flex;
-    justify-content: flex-end;
+.add_btn {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 0.6rem 1rem;
+  margin-bottom: 8rem 0;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: #5329c9c8;
+  box-shadow: 0 0 20px rgb(113, 113, 255), 0 0 20px blueviolet;
 }
-.edit, .delete{
-    outline: none;
-    border: none;
-    background: transparent;
-    padding: 0.6rem 1rem;
-    cursor: pointer;
-    display: flex;
+.save_btn {
+  border: none;
+  background: transparent;
 }
-.txtarea{
-    outline: none;
-    border: none;
-    font-family: inherit;
-    font-size: 16px;
-    width: 99%;
-    height: 201px;
-    padding: 2px;
-    resize: none;
+.save_btn img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.note_wrapper {
+  width: 350px;
+  height: 250px;
+  margin-top: 1rem;
+  background: rgba(219, 208, 224, 0.575);
+  border-radius: 10px;
+}
+.editbuttons {
+  background-color: #cb54e2c8;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 10px;
+  padding: 6px;
+}
+.edit,
+.delete {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.txtarea {
+  outline: none;
+  border: none;
+  font-family: inherit;
+  font-size: 16px;
+  width: 99%;
+  height: 201px;
+  padding: 2px;
+  resize: none;
+  background: transparent;
 }
